@@ -1,0 +1,30 @@
+@media print {
+    html {
+      max-width: 211mm;
+      margin: 0 auto;
+    }
+    .no-print {
+      display: none;
+    }
+    .wrapper {
+      box-shadow: none;
+    }
+    .sidebar-wrapper .container-block {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .main-wrapper {
+      padding-top: 35px;
+      padding-bottom: 15px;
+    }
+    .main-wrapper .section {
+      margin-bottom: 30px;
+    }
+    .main-wrapper .section:last-child {
+      margin-bottom: 0;
+    }
+    .footer {
+      padding: 0
+    }  
+  }
+  
